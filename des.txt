@@ -1,0 +1,260 @@
+Topic: Manz & Spark
+
+
+Colors: Olive-green(#556B2F), white, gun grey(#666666)
+
+
+category: watches, rings (like wedding and signet rings), necklaces (chains, pendants, dog tags), 
+	  bracelets (including kada and identity bracelets), earrings (studs and more elaborate designs), cufflinks, tie bars, and lapel pins.
+
+links: Home, Aboutus, Feedback, Contact, Gallery
+
+
+Font-family: Plus Jakarta Sans
+
+
+
+Slogans:
+1. **"Where Strength Meets Elegance."**
+2. **"Crafted for the Modern Gentleman."**
+3. **"Unleash Your Inner Spark."**
+4. **"Jewelry That Speaks Power."**
+5. **"Refined Style, Unmatched Boldness."**
+6. **"Elegance. Power. Spark."**
+7. **"For the One Who Dares to Shine."**
+8. **"Where Luxury Meets Legacy."**
+9. **"Masterpieces for the Bold."**
+10. **"Spark Your Style, Elevate Your Presence."**
+11. **"Timeless Craft, Modern Edge."**
+12. **"Strength in Every Spark."**
+13. **"Unveil Your Power, Shine in Style."**
+14. **"Bold Designs for the Unforgettable Man."**
+15. **"Crafted for Impact, Designed for Life."**
+
+
+
+<!-- Feedback Form Wrapper -->
+  <main class="feedback-wrapper" role="main">
+    <section class="feedback-card" aria-labelledby="feedbackHeading">
+      <h2 id="feedbackHeading">Feedback</h2>
+
+      <form id="feedbackForm" action="#" method="POST" novalidate>
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name<span class="text-danger">*</span></label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name" required minlength="3" aria-required="true" aria-describedby="nameHelp"/>
+          <small id="nameHelp" class="form-text text-muted">At least 3 characters.</small>
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address<span class="text-danger">*</span></label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="example@example.com" aria-required="true" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="rating" class="form-label">Rate Your Experience<span class="text-danger">*</span></label>
+          <select class="form-select" id="rating" name="rating" required aria-required="true">
+            <option value="" disabled selected>Choose...</option>
+            <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+            <option value="4">⭐⭐⭐⭐ Very Good</option>
+            <option value="3">⭐⭐⭐ Good</option>
+            <option value="2">⭐⭐ Fair</option>
+            <option value="1">⭐ Poor</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="message" class="form-label">Your Feedback<span class="text-danger">*</span></label>
+          <textarea class="form-control" id="message" name="message" rows="4" placeholder="Write your feedback here..." required minlength="10" aria-required="true"></textarea>
+          <small class="form-text text-muted">Minimum 10 characters.</small>
+        </div>
+
+        <div class="form-check mb-4">
+          <input class="form-check-input" type="checkbox" id="agree" name="agree" required aria-required="true" />
+          <label class="form-check-label" for="agree">
+            I agree to share my feedback for improvement.<span class="text-danger">*</span>
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-olive" aria-label="Submit Feedback">Submit Feedback</button>
+      </form>
+    </section>
+  </main>
+
+
+
+
+
+	//////LOGIN
+
+Access the Art of Imitation.
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <main class="auth-card" role="main" aria-label="Login form">
+    <!-- FORM SIDE -->
+    <section class="form-wrap">
+      <div class="brand">
+        <div class="brand-logo" aria-hidden="true"><img src="./images/favicon.png" alt="logo" style="max-width:100%; max-height:100%; border-radius: 12px;"></div>
+        <h1>PASCAL IMITATION JEWELLERY</h1>
+      </div>
+      <p class="subtitle">Welcome back! Please sign in to continue.</p>
+
+      <form id="loginForm" novalidate>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" required>
+          <div class="invalid-feedback">Please enter a valid email.</div>
+        </div>
+
+        <div class="mb-2">
+          <label for="password" class="form-label">Password</label>
+          <div class="input-group">
+            <input type="password" class="form-control" id="password" name="password" minlength="6" placeholder="••••••••" required>
+            <button class="btn btn-outline-secondary" type="button" id="togglePw" aria-label="Show password">Show</button>
+            <div class="invalid-feedback">Password must be at least 6 characters.</div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mt-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="1" id="remember">
+              <label class="form-check-label" for="remember">Remember me</label>
+            </div>
+            <a class="small" href="#" onclick="alert('Forgot Password flow not connected yet.')">Forgot password?</a>
+          </div>
+        </div>
+
+        <button class="btn btn-brand w-100 mt-3" type="submit">Sign In</button>
+      </form>
+    </section>
+
+    <!-- HERO SIDE -->
+    <aside class="hero">
+      <div class="hero-inner">
+        <h2>Secure & Simple</h2>
+        <p>Modern authentication UI with olive‑green branding for your project.</p>
+      </div>
+    </aside>
+  </main>
+  <!-- Bootstrap + JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Password toggle
+    const toggleBtn = document.getElementById('togglePw');
+    const pw = document.getElementById('password');
+    toggleBtn?.addEventListener('click', ()=>{
+      const isHidden = pw.type === 'password';
+      pw.type = isHidden ? 'text' : 'password';
+      toggleBtn.textContent = isHidden ? 'Hide' : 'Show';
+      toggleBtn.setAttribute('aria-label', isHidden ? 'Hide password' : 'Show password');
+      pw.focus();
+    });
+
+    // Bootstrap custom validation + demo submit
+    const form = document.getElementById('loginForm');
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      if(!form.checkValidity()){
+        e.stopPropagation();
+      } else {
+        // Replace this with your real auth call
+        const email = document.getElementById('email').value.trim();
+        const remember = document.getElementById('remember').checked;
+        alert(`Logged in as: ${email}\nRemember me: ${remember ? 'Yes' : 'No'}`);
+      }
+      form.classList.add('was-validated');
+    });
+
+    // Optional: Press Enter to submit
+    ['email','password'].forEach(id=>{
+      const el = document.getElementById(id);
+      el.addEventListener('keydown', (ev)=>{
+        if(ev.key === 'Enter'){
+          form.requestSubmit();
+        }
+      });
+    });
+  </script>
+
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- jQuery Validation -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+
+  <style>
+    :root {
+      --olive-green: #556b2f;
+      --smoke-white: #f5f5f5;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: url("assets/pearl2.jpg") center/cover no-repeat fixed;
+      position: relative;
+      min-height: 100vh;
+    }
+
+    /* Olive green overlay */
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: rgba(85, 107, 47, 0.75); /* olive green with opacity */
+      z-index: 0;
+    }
+
+    .feedback-wrapper {
+      position: relative;
+      z-index: 1; /* keep above overlay */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .feedback-card {
+      background: var(--smoke-white);
+      border-radius: 1rem;
+      box-shadow: 0 8px 25px rgba(0,0,0,.25);
+      max-width: 700px;
+      width: 100%;
+      padding: 2rem;
+      border-top: 6px solid var(--olive-green);
+    }
+
+    .feedback-card h2 {
+      color: var(--olive-green);
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .btn-olive {
+      background-color: var(--olive-green);
+      color: #fff;
+      border-radius: .5rem;
+      padding: .6rem 1.2rem;
+      transition: .3s;
+    }
+    .btn-olive:hover {
+      background-color: #445526;
+      color: #fff;
+    }
+
+    /* Error styles */
+    label.error {
+      color: red;
+      font-size: 0.9rem;
+      margin-top: 0.2rem;
+    }
+    input.error, textarea.error, select.error {
+      border-color: red !important;
+    }
